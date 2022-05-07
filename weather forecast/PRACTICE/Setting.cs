@@ -8,7 +8,7 @@ namespace PRACTICE
 {
     class Setting
     {
-        public static string apiKey = "{your api openweathermap}";
+        public static string apiKey = "{your api-key}";
         public static string path = "data.json";
 
     }

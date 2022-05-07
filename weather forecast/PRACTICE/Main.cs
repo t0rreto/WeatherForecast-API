@@ -51,16 +51,25 @@ namespace PRACTICE
 
         private void WeatherRequest()
         {
-            
-            string url= "https://api.openweathermap.org/data/2.5/onecall?lat="+lat+"&lon="+lon+"&exclude=daily,minutely,current&units=metric&lang=en&appid="+Setting.apiKey; 
-            HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
-            HttpWebResponse httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-            string response;
-            using (StreamReader streamReader = new StreamReader(httpWebResponse.GetResponseStream()))
+            try
             {
-                response = streamReader.ReadToEnd();
+                string url = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&exclude=daily,minutely,current&units=metric&lang=en&appid=" + Setting.apiKey;
+                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+                HttpWebResponse httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                string response;
+                using (StreamReader streamReader = new StreamReader(httpWebResponse.GetResponseStream()))
+                {
+                    response = streamReader.ReadToEnd();
+                }
+                weatherResponce = JsonConvert.DeserializeObject<WeatherResponce>(response);
             }
-            weatherResponce = JsonConvert.DeserializeObject<WeatherResponce>(response);
+            catch (WebException e)
+            {
+                MessageBox.Show(e.Message + "Check the correctness of the entered api token");
+                Close();
+                return;
+            }
+            
             PassForm();
         }
 
@@ -91,13 +100,12 @@ namespace PRACTICE
                 containers.times[i].Text = pDate.AddHours(1).ToShortTimeString();
             }
 
-
         }
     
 
         public string iconRequst(int b)
         {
-            string a = "http://openweathermap.org/img/wn/" + weatherResponce.Hourly[b].Weather[0].Icon + "@2x.png";
+            string a = "Icons/" +  weatherResponce.Hourly[b].Weather[0].Icon + "@2x.png";
             return a;
         }
 
@@ -109,7 +117,6 @@ namespace PRACTICE
             lon = city.lon;
             SityLabel.Text = selectbox.SelectedItem.ToString();
             WeatherRequest();
-
 
         }
     }

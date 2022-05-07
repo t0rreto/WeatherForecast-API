@@ -37,3 +37,16 @@ E:\Users\User\source\repos\PRACTICE\PRACTICE\obj\Debug\PRACTICE.csproj.CopyCompl
 E:\Users\User\source\repos\PRACTICE\PRACTICE\obj\Debug\PRACTICE.exe
 E:\Users\User\source\repos\PRACTICE\PRACTICE\obj\Debug\PRACTICE.pdb
 E:\Users\User\source\repos\PRACTICE\PRACTICE\obj\Debug\PRACTICE.Main.resources
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\bin\Debug\PRACTICE.exe.config
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\bin\Debug\PRACTICE.exe
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\bin\Debug\PRACTICE.pdb
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.csprojAssemblyReference.cache
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.Main.resources
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.Properties.Resources.resources
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.csproj.GenerateResource.cache
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.csproj.CoreCompileInputs.cache
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.csproj.CopyComplete
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.exe
+C:\Users\lagut\OneDrive\Документы\GitHub\WeatherForecast-API\weather forecast\PRACTICE\obj\Debug\PRACTICE.pdb
