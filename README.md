@@ -8,6 +8,7 @@
 
 <div align="center"> <h1>  Information </h1> </div>
 Demonstration of the possibility of working with api. The program makes a request about the weather to a third-party resource and displays on the graphical interface
+
 ![](demo.png)
 
 <div align="center"> <h1>  Install/Setting </h1> </div>
